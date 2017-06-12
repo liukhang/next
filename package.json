@@ -1,0 +1,24 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "khang tv",
+  "main": "server.js",
+  "scripts": {
+    "build": "next build",
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "next"
+  ],
+  "author": "khang tv",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "isomorphic-unfetch": "^1.0.0",
+    "next": "^2.4.3",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-markdown": "^2.5.0"
+  }
+}
